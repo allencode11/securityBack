@@ -1,0 +1,75 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/apavalac/Library/CloudStorage/OneDrive-Personal/utm2/Security/Security.csproj": {}
+  },
+  "projects": {
+    "/Users/apavalac/Library/CloudStorage/OneDrive-Personal/utm2/Security/Security.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/apavalac/Library/CloudStorage/OneDrive-Personal/utm2/Security/Security.csproj",
+        "projectName": "Security",
+        "projectPath": "/Users/apavalac/Library/CloudStorage/OneDrive-Personal/utm2/Security/Security.csproj",
+        "packagesPath": "/Users/apavalac/.nuget/packages/",
+        "outputPath": "/Users/apavalac/Library/CloudStorage/OneDrive-Personal/utm2/Security/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/apavalac/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNet.WebApi.Cors": {
+              "target": "Package",
+              "version": "[5.2.9, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
